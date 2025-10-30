@@ -1,4 +1,7 @@
-# 🧪 MATLAB Test Projects Repository
+# 🧮 MATLAB Test Projects Repository
+
+[![Static Badge](https://img.shields.io/badge/2018%2B-6771B0?logo=matlab&logoColor=white&label=MATLAB)](https://www.mathworks.com/)
+[![GitHub License](https://img.shields.io/github/license/fernandomartinscardoso/matlabBasics?color=5B9C73)](https://github.com/fernandomartinscardoso/matlabBasics/blob/main/LICENSE)
 
 This repository serves as a collection of modular **MATLAB scripts and functions** for various testing, simulation, and proof-of-concept projects. The goal is to provide a clean, consistent, and easily accessible environment for developing, testing, and sharing isolated MATLAB applications.
 
