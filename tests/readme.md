@@ -66,6 +66,7 @@ Equality holds if and only if all the numbers are exactly equal ($x_1 = x_2 = ..
 Here are three common categories of equations solved using this property:
 
 1. Reciprocal Variable Equations
+   
    Equations where variables and their reciprocals are added together can be solved by applying AM-GM to cancel out the variables in the product.
    - Example: $x + \frac{9}{x} = 6$ (for $x > 0$)
    - How to solve: Apply AM-GM to the terms $x$ and $\frac{9}{x}$.
@@ -78,7 +79,8 @@ Here are three common categories of equations solved using this property:
     
    - Conclusion: Because the equation specifies that $x + \frac{9}{x} = 6$, equality must hold. For equality in AM-GM, the terms must be equal ($x = \frac{9}{x}$), meaning $x^2 = 9$ or $x = 3$.
 
-2. Polynomial Equations with Sum Constraints
+1. Polynomial Equations with Sum Constraints
+
    These equations require finding a specific sum of variables to minimize a polynomial or find exact root values.
    - Example: $x^3 + y^3 + z^3 = 3xyz$
    - How to solve: Rearrange to $x^3 + y^3 + z^3 - 3xyz = 0$. By applying the AM-GM inequality, we know that for non-negative numbers:
@@ -89,7 +91,8 @@ Here are three common categories of equations solved using this property:
     
    - Conclusion: Since the sum equals $3xyz$, equality is the only solution. This only occurs when $x^3 = y^3 = z^3$, which leads to $x = y = z$.
 
-3. Trigonometric and Exponential Sums
+1. Trigonometric and Exponential Sums
+
    Equations featuring trigonometric or exponential functions can often be rewritten as a sum of functions that are multiplicative inverses.
    - Example: $\sin^2(x) + \csc^2(x) = 2$ (for $0 < x < \pi$)
    - How to solve: Let $\sin^2(x) = a$ and $\csc^2(x) = \frac{1}{a}$. The equation becomes $a + \frac{1}{a} = 2$. Apply AM-GM:
